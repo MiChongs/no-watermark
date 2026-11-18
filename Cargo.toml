@@ -3,6 +3,8 @@ name = "no-watermark"
 version = "1.0.0"
 edition = "2021"
 description = "Hide the Windows desktop watermark by patching explorer's in-memory shell32 (no resident process)"
+license = "MIT"
+repository = "https://github.com/MiChongs/no-watermark"
 
 [[bin]]
 name = "NoWatermark"

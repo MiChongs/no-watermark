@@ -16,7 +16,7 @@ Remove the Windows desktop watermark (e.g. "Evaluation copy / Insider Preview") 
 
 ## 使用
 
-1. 从源码编译（见下文）或下载编译好的 `NoWatermark.exe`
+1. 从 [Releases](https://github.com/MiChongs/no-watermark/releases/latest) 下载 `NoWatermark.exe`，或从源码编译（见下文）
 2. 双击运行，弹出菜单：
    - **是** —— 安装：复制到 `%LOCALAPPDATA%\NoWatermark\`，立即去除水印，之后每次登录自动去除
    - **否** —— 卸载：移除开机启动项，可选择立即重启资源管理器恢复水印
@@ -67,3 +67,7 @@ cargo build --release
 ## 免责声明
 
 本工具仅用于隐藏桌面上的提示文字，不涉及也不改变 Windows 的激活或授权状态。修改进程内存存在一定风险，请自行评估后使用。
+
+## 许可证
+
+[MIT](LICENSE)
